@@ -4,7 +4,7 @@
   packager: git
   repo: https://github.com/jaryn/pivovar.git
   branch: updating
-  
+
 # Jaroslav's laptop
 d71d7a57a4f645e68869b8a55ca45d2c:
   packager: docker

@@ -1,0 +1,16 @@
+[Unit]
+Description=Pivovar updater
+Requires=network.target
+
+[Service]
+#EnvironmentFile=/etc/sysconfig/pivovar
+ExecStart=/home/pi/pivovar-venv/bin/pivovar_update \
+    --local-repo-path /home/pi/pivovar/ \
+    --virtualenv-path /home/pi/pivovar-venv/
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+RestartSec=42s
+
+[Install]
+WantedBy=multi-user.target

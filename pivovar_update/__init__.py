@@ -76,8 +76,8 @@ def call(commands):
 
 def main():
     import argparse
-    parser = argparse.ArgumentParser(description='Wash some kegs.')
-    parser.add_argument('--versions_url', action='store', default=VERSIONS_URL,
+    parser = argparse.ArgumentParser(description='Pivovar software updater.')
+    parser.add_argument('--versions-url', action='store', default=VERSIONS_URL,
                         help='URL of versions file.')
     parser.add_argument('--local-repo-path', action='store',
                         help='Path to local repo to update.')

@@ -1,9 +1,9 @@
 ---
 # Devel box
-021eba9b75b94f26942263c5cc92c2d6:
+8a70aaa0dee148aa8e7707d4065e10b5:
   packager: git
   repo: https://github.com/jaryn/pivovar.git
-  branch: updating
+  refspec: updating
 
 # Jaroslav's laptop
 d71d7a57a4f645e68869b8a55ca45d2c:
